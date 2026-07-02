@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 
-const token = "YOUR_BOT_TOKEN"; // BotFather bergan token
+const token = "8986152183:AAEZqzbK15cgCptyF_qq5LhABZ5kzbw0qQk"; // BotFather bergan token
 const bot = new TelegramBot(token, { polling: true });
 
 // /start komandasi
