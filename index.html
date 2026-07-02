@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <title>Barber Navbat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>✂️ Barber Navbat</h1>
+  </header>
+
+  <section id="form">
+    <h2>Navbatga yozilish</h2>
+    <form method="POST" action="backend.php">
+      <input type="text" name="name" placeholder="Ismingiz" required>
+      <input type="text" name="phone" placeholder="Telefon" required>
+      <input type="time" name="time" required>
+      <button type="submit">Yozilish</button>
+    </form>
+  </section>
+
+  <section id="queue">
+    <h2>Bugungi navbat</h2>
+    <table>
+      <tr><th>Vaqt</th><th>Ism</th><th>Telefon</th></tr>
+      <!-- PHP orqali jadval to‘ldiriladi -->
+    </table>
+  </section>
+
+  <footer>
+    <p>📍 Lokatsiya: <a href="https://maps.google.com?q=barberxona">Google Maps</a></p>
+    <p>☎️ Bog‘lanish: +998 90 123 45 67</p>
+  </footer>
+</body>
+</html>
